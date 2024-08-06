@@ -1,0 +1,150 @@
+/* .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+
+    width: 100%;
+    height: auto;
+
+    background-color: cadetblue;
+}
+
+.container div {
+    width: 180px;
+    height: 180px;
+
+    background-color: darkorchid;
+    border: 5px solid black;
+    border-radius: 15px;
+    font-size: 94px;
+} */
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(240, 187, 195);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    width: 70%;
+    height: 98vh;
+}
+
+.main-container header {
+    width: 90%;
+    height: 40px;
+
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 7px;
+    box-shadow: 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main-container header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    margin: 15px;
+}
+
+.main-container header div {
+    width: 23px;
+    height: 23px;
+
+    margin: 15px;
+
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 7px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.main-container .main-container-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container .main-container-child {
+    width: 90%;
+    height: 150px;
+
+    margin: 15px;
+
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 7px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+
+    gap: 24px;
+}
+
+.main-container .main-container-child .div-01 {
+    width: 350px;
+    height: 100px;
+
+    margin: 0 15px 0 15px;
+
+    background-color: crimson;
+    border: 2px solid black;
+    border-radius: 7px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.main-container .main-container-child .div-02 {
+    width: 480px;
+    height: 100px;
+
+    margin: 0 15px 0 15px;
+
+    background-color: crimson;
+    border: 2px solid black;
+    border-radius: 7px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+    width: 50%;
+    height: 93vh;
+
+    margin: 15px;
+
+    background-color: white ;
+    border: 2px solid black;
+    border-radius: 7px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+aside .aside-child-top {
+    width: 200px;
+    height: 200px;
+
+    margin: 24px;
+
+    background-color: aqua;
+}
+
+aside .aside-child-bottom {
+    width: 200px;
+    height: 400px;
+
+    margin-bottom: 24px;
+
+    background-color: aqua;
+}
