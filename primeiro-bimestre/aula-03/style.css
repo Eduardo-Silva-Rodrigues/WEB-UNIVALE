@@ -33,9 +33,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-
-    width: 70%;
-    height: 98vh;
 }
 
 .main-container header {
@@ -132,19 +129,43 @@ aside {
 }
 
 aside .aside-child-top {
-    width: 200px;
-    height: 200px;
+    display: flex;
 
-    margin: 24px;
-
-    background-color: aqua;
+    margin: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 aside .aside-child-bottom {
-    width: 200px;
-    height: 400px;
+    display: flex;
 
-    margin-bottom: 24px;
+    margin: 18px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-    background-color: aqua;
+aside .aside-child-top div {
+    width: 90px;
+    height: 90px;
+
+    margin: 10px;
+
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 7px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+aside .aside-child-bottom div {
+    width: 300px;
+    height: 50px;
+
+    margin: 10px;
+
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 7px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
 }
